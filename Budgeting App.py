@@ -1,5 +1,3 @@
-** start of main.py **
-
 class Category:
     def __init__(self, name):
         self.name = name
@@ -90,7 +88,4 @@ def create_spend_chart(categories):
         title += line + "\n"
     return title.rstrip("\n")
 
-
-
-** end of main.py **
 
